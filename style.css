@@ -1,0 +1,230 @@
+.main-container{
+margin:0 auto;
+padding:0px 10px;
+width:800px;
+height:1100px;
+/* border:1px solid #787878 ; */
+}
+
+
+
+.title span{
+font-size:30px;
+font-weight:bold;
+text-align:left;
+}
+
+.header-left{
+margin-bottom:10px;
+}
+.header-right{
+width:270px;
+float:right;
+border:2px solid black;
+text-align:center;
+padding-top:2px;
+}
+
+.day{
+text-align:center;
+width:50%;
+border-bottom:1px solid black;
+}
+
+.input-time{
+width:80px;
+text-align:center;
+border-bottom:1px solid black;
+}
+
+input{
+border:none;
+background-color:#e7edf8;
+color:#0000CD;
+}
+
+.text1{
+height:20px;
+border-bottom:1px solid black;
+text-align:center;
+}
+
+.text{
+
+display:inline-block;
+width:99%;
+height:30px;
+border-bottom:1px solid black;
+margin-bottom:1px;
+}
+
+.customer-info{
+width:790px;
+border:3px solid black ;
+padding-left:5px;
+margin:0 0 5px 0;
+}
+
+.sub-info{
+width:50%;
+display:inline-block;
+}
+
+.sub-info1{
+width:25%;
+display:inline-block;
+/* padding-right:1px; */
+}
+
+.a{
+float:right;
+}
+
+.main-contents{
+border:3px solid black ;
+height:800px;
+}
+
+.parent{
+ display: flex;
+}
+
+.device{
+width:60%;
+}
+
+.maker{
+width:15%;
+}
+
+.SerialNo{
+width:30%;
+}
+
+.date{
+width:20%;
+}
+
+.work-class{
+border-bottom:1px solid black;
+height:60px;
+
+}
+
+.work-class ul {
+ text-align: center;
+margin:0px;
+}
+
+.work-class li {
+ display: inline;
+}
+
+.border{
+border-bottom:1px solid black;
+}
+
+.work-info textarea{
+color:#0000CD;
+resize:none;
+display:inline-block;
+width:790px;
+background-color:#e7edf8;
+font-size:15px;
+border:none;
+/* border-bottom:1px solid black; */
+margin-left:3px;
+}
+
+.work-contents{
+height:200px;
+}
+
+.partslist{
+padding-top:5px;
+}
+
+table{
+margin:0 auto;
+width:790px;
+border-spacing: 0;
+border-collapse: collapse;
+margin-top:2px;
+}
+
+.quantity{
+width:35px;
+}
+
+table th{
+text-align:center;
+font-weight:normal;
+/* font-size:; */
+}
+
+table input{
+width:100%;
+text-align:center;
+}
+
+footer{
+margin-top:30px;
+height:120px;
+margin-bottom:100px;
+}
+
+.period{
+float:right;
+font-size:10px
+}
+
+.period select{
+width:70px;
+height:30px;
+font-size:20px;
+color:red;
+}
+
+.footer-logo{
+text-align:center;
+width:300px;
+height:30px;
+padding-top:20px;
+}
+
+.wako{
+font-size:18px;
+font-weight:bold;
+color:#000099;
+}
+
+.address{
+font-size:13px;
+}
+
+.sign{
+display:flex;
+float:right;
+}
+
+.operator{
+margin:0px 20px;
+width:150px;
+height:60px;
+background-color:#e7edf8;
+border:1px solid black;
+text-align:center;
+font-size:15px;
+}
+
+.text-sign{
+width:140px;
+height:30px;
+text-align:center;
+border:none;
+background-color:#e7edf8;
+font-size:17px;
+font-weight:bold;
+color:#136FFF;
+}
+

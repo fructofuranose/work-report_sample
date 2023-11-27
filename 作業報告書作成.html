@@ -1,0 +1,185 @@
+<!DOCUTYPE HTML>
+ <html lang=ja>
+ 
+ <head>
+  <meta charaset="utf-8">
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+ <body>
+  <div class="main-container">
+
+　<header>
+   <div class="header-contents">
+
+    <div class="header-left">
+     <div class="title"><span>作業報告書</span>
+
+     <div class="header-right">
+   
+       <div >
+        日付
+        <input class="day" type="text">
+       </div>
+       <div class="time">
+        作業時間
+        <input class="input-time" type="text" >～<input class="input-time" type="text">
+       </div>
+        
+     </div>
+    </div>
+   </div>
+　
+
+
+  
+
+   <div class="customer-info">
+
+    <div class="main-info">
+      顧客名/部署名
+      <input class="text" type="text" />
+    </div>
+    
+     <div class="sub-info ">ご住所
+      <input class="text" type="text" />
+     </div>
+
+     <div class="sub-info1 a">TEL
+       <input class="text " type="text" />
+     </div>
+
+     <div class="sub-info1 a">
+      ご担当者様
+      <input class="text " type="text" />
+     </div>
+
+
+
+ </header>
+
+ 
+
+ <div class="main-contents">
+  <div class="parent">
+  <div class="maker">
+   メーカー名
+   <input class="text" type="text" />
+  </div>
+  <div class="device">
+    装置名
+    <input class="text" type="text" />
+  </div>
+  <div class="SerialNo ">
+    製造番号
+    <input class="text" type="text" />
+  </div>
+  <div class="date">
+    納入年月
+    <input class="text" type="text" />
+  </div>
+  </div>
+  
+  
+   <div class="work-class">
+   <label for="section">作業分類</label>
+   <ul id="section">
+    <li><input type="checkbox">修理</li>
+    <li><input type="checkbox">据付</li>
+    <li><input type="checkbox">点検</li>
+    <li><input type="checkbox">移設</li>
+    <li><input type="checkbox">保障内作業</li>
+    <li><input type="checkbox">オーバーホール</li>
+    <li><input type="checkbox">その他</li>
+    <li><input type="checkbox">外部委託</li>
+   </ul>
+   </div>
+ 
+ <div class="work-info">
+  <div class="border">
+   <label for="sample1">作業依頼</label>
+   <textarea class="work-order" id="sample1" placeholder="依頼依頼" ></textarea>
+  </div>
+  <div class="border">
+   <label for="sample2">作業内容</label>
+   <textarea class="work-contents" id="sample2" placeholder="作業内容" ></textarea>
+  </div>
+ </div>
+
+ <div class="partslist">
+ 
+   <table>
+    <table border=1>
+    <tr><th>パーツNo.</th><th>パーツ名</th><th class ="quantity">数量</th><th>備考</th></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+
+
+
+  </table>
+  
+ </div>
+
+ <footer>
+  <div class="period"> 
+   今回の作業は<select name="period">
+　　　<option>----</option>
+      <option>有償</option>
+      <option>無償</option>
+      </select>とさせて頂きます。
+  </div>
+  
+   
+   <div class="footer-logo">
+    <div class="wako">
+     ○○株式会社
+    </div>
+    <div class="address">
+     会社の住所記述欄
+     <br>
+     tel:000-000-0000
+     <br>
+     営業時間:9:00-18:00
+    </div>
+   </div>
+
+  <div class="sign">
+   <div class="operator">
+    作業者名
+    <select class="text-sign" name="operator">
+     <option>------</option>
+     <option>田中太郎</option>
+     <option>田中次郎</option>
+     <option>田中三郎</option>
+    </select>
+   </div>
+   
+   <div class="operator ">
+    ご署名
+    <input class="text-sign" type="text">
+   </div>
+  </div>
+
+ </footer>
+</div>
+
+
+</body>
+
+</html>
